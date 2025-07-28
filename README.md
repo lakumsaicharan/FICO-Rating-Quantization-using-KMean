@@ -11,14 +11,10 @@ Transform numerical `fico_score` values into categorical credit **ratings** usin
   - `1 = Excellent`
   - `5 = Poor`
 
-## 📊 Visualizations
-- `fico_distribution.png`: FICO score distribution across buckets
-- `default_rate_by_rating.png`: Average default rate by credit rating
-
 ## 📁 Files Included
 | File | Description |
 |------|-------------|
-| `fico_rating_model.py` | Main script to process the data and assign ratings |
+| `fico_rating_model.ipynb` | Main script to process the data and assign ratings |
 | `Loan_Data.csv` | Sample data (10,000 records) |
 | `fico_ratings_output.csv` | Final dataset with ratings |
 | `plots/` | Charts showing distribution and default trends |
@@ -27,8 +23,3 @@ Transform numerical `fico_score` values into categorical credit **ratings** usin
 - Python (Pandas, NumPy)
 - scikit-learn (KMeans)
 - seaborn / matplotlib
-
-## 📌 How to Run
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
-python fico_rating_model.py
